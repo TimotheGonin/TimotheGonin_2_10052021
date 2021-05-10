@@ -1,0 +1,22 @@
+/*FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap');
+
+/**/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3em;
+}
+
+.header__signIn {
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: 700;
+}

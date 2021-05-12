@@ -1,11 +1,11 @@
 /*FONT*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 
 /**/
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -20,7 +20,7 @@ header {
 
 .header__signIn {
     text-decoration: none;
-    color: #0065FC;
+    color: #0065fc;
     font-weight: 700;
 }
 
@@ -34,11 +34,12 @@ ul {
 }
 
 li {
-    padding: .5em;
+    padding: 0.5em;
     width: 50%;
     text-align: center;
     font-weight: 400;
     cursor: pointer;
+    border-bottom: 0.2em solid white;
 }
 
 
@@ -48,6 +49,18 @@ li {
 } */
 
 li:hover {
-    color: #0065FC;
-    border-bottom: .2em solid #0065FC;
+    color: #0065fc;
+    border-bottom: 0.2em solid #0065fc;
+}
+
+
+/* 3 - FILTER */
+
+.filter {
+    padding: 1.3em;
+}
+
+.filter__tilte {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
 }

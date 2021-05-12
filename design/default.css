@@ -62,9 +62,18 @@ li:hover {
     margin-bottom: 0.5em;
 }
 
+.search {
+    /* margin: 1.9em 0; */
+    display: flex;
+    position: relative;
+    border: 0.1em solid #f2f2f2;
+    border-radius: 1em;
+}
+
 .search>i {
     background-color: #f2f2f2;
-    padding: 1em;
+    font-size: 1.5em;
+    padding: 0.5em;
     border-top-left-radius: 35%;
     border-bottom-left-radius: 35%;
 }
@@ -74,10 +83,14 @@ li:hover {
     outline: none;
     padding-left: 0.5em;
     font-weight: bold;
-    /* font-family: "Raleway", sans-serif; */
+    width: 70%;
 }
 
-button {
+span>i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
     background-color: #0065fc;
     color: white;
     border: none;

@@ -63,11 +63,15 @@ li:hover {
 }
 
 .search {
+<<<<<<< HEAD
     /* margin: 1.9em 0; */
     display: flex;
     position: relative;
     border: 0.1em solid #f2f2f2;
     border-radius: 1em;
+=======
+    margin: 1.9em 0;
+>>>>>>> mobile_section-filter
 }
 
 .search>i {

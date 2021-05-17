@@ -2,18 +2,19 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia</title>
-    <link rel="stylesheet" href="design/reset.css">
-    <link rel="stylesheet" href="design/default.css">
+    <link rel="stylesheet" href="design/reset.css" />
+    <link rel="stylesheet" href="design/default.css" />
+    <script src="https://kit.fontawesome.com/1243262ebe.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- 1 - HEADER -->
     <header>
-        <img src="pictures/logo/Reservia.svg" alt="Logo Reservia bleu">
+        <img src="pictures/logo/Reservia.svg" alt="Logo Reservia bleu" />
         <a class="header__signIn" href="#">S'inscrire</a>
     </header>
 
@@ -24,8 +25,46 @@
             <li>Activités</li>
         </ul>
     </nav>
+
+    <!-- 3 - FILTER -->
+    <section class="filter">
+        <h1 class="filter__tilte">
+            Trouvez votre hébergement pour des vacances de rêve
+        </h1>
+        <p class="filter__subtitle">En plein centre ville ou en pleine nature</p>
+
+        <div class="search">
+            <i class="fas fa-map-marker-alt"></i>
+            <input class="search__input" type="text" value="Marseille, France" />
+            <span><i class="fas fa-search"></i></span>
+        </div>
+
+        <h3>Filtres</h3>
+        <div class="choiceBox">
+            <div class="filter__choice">
+                <i class="fas fa-money-bill-wave"></i>
+                <p>Économique</p>
+            </div>
+            <div class="filter__choice">
+                <i class="fas fa-heart"></i>
+                <p>Romantique</p>
+            </div>
+            <div class="filter__choice">
+                <i class="fas fa-dog"></i>
+                <p>Animaux autorisés</p>
+            </div>
+            <div class="filter__choice">
+                <i class="fas fa-child"></i>
+                <p>Familial</p>
+            </div>
+        </div>
+        <div class="info">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </section>
+
     <!-- <section></section>
-    <section></section>
     <section></section>
     <section></section>
     <footer></footer> -->

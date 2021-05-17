@@ -1,11 +1,8 @@
 /*FONT*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
-
-/**/
-
-body {
-    font-family: 'Raleway', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+* {
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -20,7 +17,7 @@ header {
 
 .header__signIn {
     text-decoration: none;
-    color: #0065FC;
+    color: #0065fc;
     font-weight: 700;
 }
 
@@ -34,11 +31,12 @@ ul {
 }
 
 li {
-    padding: .5em;
+    padding: 0.5em;
     width: 50%;
     text-align: center;
     font-weight: 400;
     cursor: pointer;
+    border-bottom: 0.2em solid white;
 }
 
 
@@ -48,6 +46,119 @@ li {
 } */
 
 li:hover {
-    color: #0065FC;
-    border-bottom: .2em solid #0065FC;
+    color: #0065fc;
+    border-bottom: 0.2em solid #0065fc;
+}
+
+
+/* 3 - FILTER */
+
+.filter {
+    padding: 1.3em;
+}
+
+.filter__tilte {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+.search {
+    margin: 1.9em 0;
+    display: flex;
+    position: relative;
+    border: 0.1em solid #f2f2f2;
+    border-radius: 1em;
+}
+
+.search>i {
+    background-color: #f2f2f2;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 35%;
+}
+
+.search__input {
+    border: none;
+    outline: none;
+    padding-left: 0.5em;
+    font-weight: bold;
+    width: 70%;
+}
+
+span>i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 35%;
+    cursor: pointer;
+}
+
+.filter__choice {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.4em;
+    min-width: 55%;
+    word-break: break-word;
+}
+
+.filter__choice>i {
+    position: absolute;
+    left: -0.2em;
+    color: #0065fc;
+    background: #deebff;
+    padding: 1em;
+    border-radius: 50%;
+    font-size: 0.95em;
+}
+
+.filter__choice>p {
+    padding-left: 3.2em;
+    font-weight: bold;
+    font-size: 0.94em;
+    border: 0.2rem solid #f2f2f2;
+    border-radius: 1.9em;
+    padding: 0.7em 0.7em 0.7em 3em;
+}
+
+.filter__choice>p:hover,
+.filter__choice>p:active {
+    color: #0065fc;
+    background: #deebff;
+    border: 0.2rem solid #deebff;
+}
+
+.choiceBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
+    max-height: 13em;
+    margin-top: 0.2em;
+}
+
+.info {
+    display: flex;
+    position: relative;
+}
+
+.info>i {
+    font-size: 0.7em;
+    color: #0065fc;
+    border: 1px solid #deebff;
+    border-radius: 50%;
+    padding: 0.5em 0.9em;
+    position: absolute;
+    top: 20%;
+}
+
+.info>p {
+    font-size: 0.9em;
+    margin: 1em auto 1em 2.5em;
 }

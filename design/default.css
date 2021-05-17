@@ -168,7 +168,7 @@ span>i {
 
 .popular {
     padding: 1.3em;
-    background-color: #deebff;
+    background-color: #f2f2f2;
 }
 
 .popular__tilte {
@@ -181,15 +181,30 @@ span>i {
     font-size: 1.5em;
 }
 
+.popular__tilte i:hover,
+.popular__tilte i:active {
+    cursor: pointer;
+    color: #0065fc;
+}
+
 
 /*CARD*/
 
-.popular__card {
+.popular__card a {
     background-color: white;
     display: flex;
     border-radius: 1em;
     padding: 0.3em;
     margin: 0.6em auto;
+    color: black;
+    text-decoration: none;
+}
+
+.popular__card a:hover,
+.popular__card a:active {
+    /*  box-shadow: inset 21em 1em gray; */
+    color: #0065fc;
+    filter: brightness(90%);
 }
 
 .popular__card img {

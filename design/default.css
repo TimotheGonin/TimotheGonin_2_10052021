@@ -179,3 +179,39 @@ span>i {
 .popular__tilte>i {
     font-size: 1.5em;
 }
+
+
+/*CARD*/
+
+.popular__card {
+    background-color: white;
+    display: flex;
+    border-radius: 1em;
+    padding: 0.3em;
+}
+
+.popular__card img {
+    height: 127px;
+    width: 133px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.card__info {
+    padding: 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__title p {
+    margin: 0.5em auto;
+}
+
+.card__title span {
+    font-weight: bold;
+}
+
+.card__notation {
+    color: #0065fc;
+}

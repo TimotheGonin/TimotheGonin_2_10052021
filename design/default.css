@@ -231,13 +231,15 @@ span>i {
 }
 
 .card__notation,
-.card__notation--custom {
+.card__notation--custom3,
+.card__notation--custom4 {
     color: #0065fc;
     font-size: 0.75em;
 }
 
-.card__notation--custom>i:nth-child(4),
-.card__notation--custom>i:nth-child(5) {
+.card__notation--custom3>i:nth-child(4),
+.card__notation--custom3>i:nth-child(5),
+.card__notation--custom4>i:nth-child(5) {
     color: #deebff;
 }
 

@@ -54,7 +54,7 @@ li:hover {
 /* 3 - FILTER */
 
 .filter {
-    padding: 1.3em;
+    padding: 1.5em;
 }
 
 .filter__tilte {
@@ -167,7 +167,7 @@ span>i {
 /* 4 - POPULAR */
 
 .popular {
-    padding: 1.3em;
+    padding: 1.5em;
     background-color: #f2f2f2;
 }
 
@@ -251,7 +251,7 @@ span>i {
 /* 5 ACCOMODATION */
 
 .accomodation {
-    padding: 1.3em;
+    padding: 1.5em;
 }
 
 .accomodation__title,
@@ -294,7 +294,7 @@ span>i {
 /* 6 ACTIVITY */
 
 .activity {
-    padding: 1.3em;
+    padding: 1.5em;
 }
 
 .activity__title {
@@ -324,4 +324,25 @@ span>i {
     /*  box-shadow: inset 21em 1em gray; */
     color: #0065fc;
     filter: brightness(70%);
+}
+
+
+/* 7 FOOTER */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 1.5em;
+}
+
+.footer__content {
+    margin: 1em auto 1.7em auto;
+}
+
+.footer__title {
+    margin: 1em auto;
+}
+
+.footer__subtitle {
+    margin: 0.5em auto;
+    font-size: 0.8em;
 }

@@ -252,7 +252,8 @@ span>i {
     padding: 1.3em;
 }
 
-.accomodation__title {
+.accomodation__title,
+.accomodation__more {
     margin: 1.5em auto;
 }
 
@@ -268,7 +269,7 @@ span>i {
 }
 
 .accomodation__card img {
-    height: 127px;
+    height: 110px;
     width: 100%;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
@@ -279,4 +280,10 @@ span>i {
     /*  box-shadow: inset 21em 1em gray; */
     color: #0065fc;
     filter: brightness(70%);
+}
+
+.accomodation__more:hover,
+.accomodation__more:active {
+    cursor: pointer;
+    color: #0065fc;
 }

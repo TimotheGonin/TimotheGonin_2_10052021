@@ -284,7 +284,8 @@ span>i {
     margin: 1.5em auto;
 }
 
-.accomodation__card a {
+.accomodation__card {
+    background-color: white;
     display: flex;
     flex-direction: column;
     border-radius: 1em;
@@ -295,6 +296,20 @@ span>i {
     box-shadow: 0em 0em 1em #f2f2f2;
 }
 
+.accomodation__card :hover,
+.accomodation__card :active {
+    color: #0065fc;
+}
+
+.accomodation__card:hover {
+    cursor: pointer;
+}
+
+.accomodation__card:active {
+    box-shadow: inset 21em 1em #f2f2f2;
+    cursor: wait;
+}
+
 .accomodation__card img {
     height: 110px;
     width: 100%;
@@ -302,17 +317,22 @@ span>i {
     border-top-right-radius: 1em;
 }
 
-.accomodation__card a:hover,
-.accomodation__card a:active {
-    /*  box-shadow: inset 21em 1em gray; */
-    color: #0065fc;
-    filter: brightness(70%);
+.accomodation__card img:hover {
+    filter: brightness(1.2);
 }
 
-.accomodation__more:hover,
-.accomodation__more:active {
+.accomodation__card img:active {
+    filter: brightness(0.8);
+    cursor: wait;
+}
+
+.accomodation__more h3:hover {
     cursor: pointer;
     color: #0065fc;
+}
+
+.accomodation__more h3:active {
+    cursor: wait;
 }
 
 

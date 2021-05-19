@@ -229,6 +229,15 @@ span>i {
     border-bottom-left-radius: 1em;
 }
 
+.popular__card img:hover {
+    filter: brightness(1.2);
+}
+
+.popular__card img:active {
+    filter: brightness(0.8);
+    cursor: wait;
+}
+
 .card__info {
     padding: 0.7em;
     display: flex;

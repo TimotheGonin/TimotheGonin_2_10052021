@@ -197,7 +197,7 @@ span>i {
 
 /*CARD*/
 
-.popular__card a {
+.popular__card {
     background-color: white;
     display: flex;
     border-radius: 1em;
@@ -207,11 +207,18 @@ span>i {
     text-decoration: none;
 }
 
-.popular__card a:hover,
-.popular__card a:active {
-    /*  box-shadow: inset 21em 1em gray; */
+.popular__card:hover,
+.popular__card :active {
     color: #0065fc;
-    filter: brightness(90%);
+}
+
+.popular__card:hover {
+    cursor: pointer;
+}
+
+.popular__card :active {
+    box-shadow: inset 21em 1em #f2f2f2;
+    cursor: wait;
 }
 
 .popular__card img {
@@ -222,11 +229,22 @@ span>i {
     border-bottom-left-radius: 1em;
 }
 
+.popular__card img:hover {
+    filter: brightness(1.2);
+}
+
+.popular__card img:active {
+    filter: brightness(0.8);
+    cursor: wait;
+}
+
 .card__info {
     padding: 0.7em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 .card__title p {

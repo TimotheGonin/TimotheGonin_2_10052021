@@ -346,7 +346,7 @@ span>i {
     margin: 1.5em auto;
 }
 
-.activity__card a {
+.activity__card {
     display: flex;
     flex-direction: column;
     border-radius: 1em;
@@ -357,6 +357,20 @@ span>i {
     box-shadow: 0em 0em 1em #f2f2f2;
 }
 
+.activity__card :hover,
+.activity__card :active {
+    color: #0065fc;
+}
+
+.activity__card :hover {
+    cursor: pointer;
+}
+
+.activity__card :active {
+    box-shadow: inset 21em 1em #f2f2f2;
+    cursor: wait;
+}
+
 .activity__card img {
     height: 110px;
     width: 100%;
@@ -364,11 +378,13 @@ span>i {
     border-top-right-radius: 1em;
 }
 
-.activity__card a:hover,
-.activity__card a:active {
-    /*  box-shadow: inset 21em 1em gray; */
-    color: #0065fc;
-    filter: brightness(70%);
+.activity__card img:hover {
+    filter: brightness(1.2);
+}
+
+.activity__card img:active {
+    filter: brightness(0.8);
+    cursor: wait;
 }
 
 

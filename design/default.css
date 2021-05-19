@@ -195,11 +195,24 @@ span>i {
 }
 
 
-/*CARD*/
+/*CARD RULES*/
 
-.popular__card {
+.card {
     background-color: white;
     display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    padding: 0.3em;
+    margin: 0.6em auto;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0em 0em 1em #f2f2f2;
+}
+
+.card--row {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
     border-radius: 1em;
     padding: 0.3em;
     margin: 0.6em auto;
@@ -207,21 +220,32 @@ span>i {
     text-decoration: none;
 }
 
-.popular__card:hover,
-.popular__card :active {
+.card :hover,
+.card :active,
+.card--row:hover,
+.card--row :active {
     color: #0065fc;
 }
 
-.popular__card:hover {
+.card:hover,
+.card--row:hover {
     cursor: pointer;
 }
 
-.popular__card :active {
+.card:active,
+.card--row :active {
     box-shadow: inset 21em 1em #f2f2f2;
     cursor: wait;
 }
 
-.popular__card img {
+.card img {
+    height: 110px;
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.card--row img {
     height: 127px;
     min-width: 133px;
     max-width: 133px;
@@ -229,11 +253,13 @@ span>i {
     border-bottom-left-radius: 1em;
 }
 
-.popular__card img:hover {
+.card img:hover,
+.card--row img:hover {
     filter: brightness(1.2);
 }
 
-.popular__card img:active {
+.card img:active,
+.card--row img:active {
     filter: brightness(0.8);
     cursor: wait;
 }
@@ -268,7 +294,7 @@ span>i {
     color: #deebff;
 }
 
-.popular>.popular__card:nth-child(4) {
+.popular>.card--row:nth-child(4) {
     margin-bottom: 1.3em;
 }
 
@@ -282,48 +308,6 @@ span>i {
 .accomodation__title,
 .accomodation__more {
     margin: 1.5em auto;
-}
-
-.accomodation__card {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-radius: 1em;
-    padding: 0.3em;
-    margin: 0.6em auto;
-    color: black;
-    text-decoration: none;
-    box-shadow: 0em 0em 1em #f2f2f2;
-}
-
-.accomodation__card :hover,
-.accomodation__card :active {
-    color: #0065fc;
-}
-
-.accomodation__card:hover {
-    cursor: pointer;
-}
-
-.accomodation__card:active {
-    box-shadow: inset 21em 1em #f2f2f2;
-    cursor: wait;
-}
-
-.accomodation__card img {
-    height: 110px;
-    width: 100%;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-}
-
-.accomodation__card img:hover {
-    filter: brightness(1.2);
-}
-
-.accomodation__card img:active {
-    filter: brightness(0.8);
-    cursor: wait;
 }
 
 .accomodation__more h3:hover {
@@ -344,47 +328,6 @@ span>i {
 
 .activity__title {
     margin: 1.5em auto;
-}
-
-.activity__card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 1em;
-    padding: 0.3em;
-    margin: 0.6em auto;
-    color: black;
-    text-decoration: none;
-    box-shadow: 0em 0em 1em #f2f2f2;
-}
-
-.activity__card :hover,
-.activity__card :active {
-    color: #0065fc;
-}
-
-.activity__card :hover {
-    cursor: pointer;
-}
-
-.activity__card :active {
-    box-shadow: inset 21em 1em #f2f2f2;
-    cursor: wait;
-}
-
-.activity__card img {
-    height: 110px;
-    width: 100%;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-}
-
-.activity__card img:hover {
-    filter: brightness(1.2);
-}
-
-.activity__card img:active {
-    filter: brightness(0.8);
-    cursor: wait;
 }
 
 

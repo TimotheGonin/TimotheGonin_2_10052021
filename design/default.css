@@ -199,14 +199,13 @@ span>i {
 
 .card {
     background-color: white;
-    display: flex;
-    flex-direction: column;
     border-radius: 1em;
     padding: 0.3em;
-    margin: 0.6em auto;
-    color: black;
-    text-decoration: none;
-    box-shadow: 0em 0em 1em #f2f2f2;
+    margin: 1em auto;
+    box-shadow: 0em 0em 2em #f2f2f2;
+    width: 327px;
+    position: relative;
+    cursor: pointer;
 }
 
 .card--row {
@@ -238,11 +237,10 @@ span>i {
     cursor: wait;
 }
 
-.card img {
-    height: 110px;
+.card__img img {
+    border-radius: 1em;
     width: 100%;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    height: 210px;
 }
 
 .card--row img {
@@ -264,17 +262,33 @@ span>i {
     cursor: wait;
 }
 
-.card__info {
-    padding: 0.7em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-top-right-radius: 1em;
+.card .card__info {
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 0.3em;
+    right: 0.3em;
+    background-color: white;
+    padding: 1em;
     border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.card__info--emptyNotation {
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    left: 0.3em;
+    right: 0.3em;
+    background-color: white;
+    padding: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
 
 .card__title p {
     margin: 0.5em auto;
+    font-size: 0.75em;
 }
 
 .card__title span {

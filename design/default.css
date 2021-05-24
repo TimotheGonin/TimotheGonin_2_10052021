@@ -278,6 +278,7 @@ span>i {
 
 .card__title p {
     margin: 0.5em auto;
+    font-size: 0.75em;
 }
 
 .card__title span {
@@ -317,8 +318,8 @@ span>i {
 
 .card .card__info {
     position: absolute;
-    top: 55%;
-    bottom: 0.3em;
+    top: 60%;
+    bottom: 0;
     left: 0.3em;
     right: 0.3em;
     background-color: white;

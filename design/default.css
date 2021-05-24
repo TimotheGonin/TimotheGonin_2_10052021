@@ -55,6 +55,7 @@ li:hover {
 
 .filter {
     padding: 1.5em;
+    overflow: hidden;
 }
 
 .filter__tilte {
@@ -105,7 +106,6 @@ span>i {
     position: relative;
     padding: 0.4em;
     min-width: 55%;
-    word-break: break-word;
 }
 
 .filter__choice>i {
@@ -274,6 +274,10 @@ span>i {
     border-bottom-left-radius: 1em;
 }
 
+.card--row .card__info {
+    padding: 0.5em 1em;
+}
+
 .card__info--emptyNotation {
     position: absolute;
     top: 75%;
@@ -300,6 +304,12 @@ span>i {
 .card__notation--custom4 {
     color: #0065fc;
     font-size: 0.75em;
+}
+
+.card--row .card__notation,
+.card--row .card__notation--custom3,
+.card--row .card__notation--custom4 {
+    margin-top: 3em;
 }
 
 .card__notation--custom3>i:nth-child(4),

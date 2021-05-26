@@ -100,7 +100,7 @@ span>i {
     cursor: pointer;
 }
 
-.filter__choice {
+.filter__button {
     display: flex;
     align-items: center;
     position: relative;
@@ -108,7 +108,7 @@ span>i {
     min-width: 55%;
 }
 
-.filter__choice>i {
+.filter__button>i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,7 +123,7 @@ span>i {
     height: 24px;
 }
 
-.filter__choice>p {
+.filter__button>p {
     padding-left: 3.2em;
     font-weight: bold;
     font-size: 0.94em;
@@ -132,8 +132,8 @@ span>i {
     padding: 0.7em 0.7em 0.7em 3em;
 }
 
-.filter__choice>p:hover,
-.filter__choice>p:active {
+.filter__button>p:hover,
+.filter__button>p:active {
     cursor: pointer;
     color: #0065fc;
     background: #deebff;

@@ -123,7 +123,7 @@ span>i {
     height: 24px;
 }
 
-.filter__button>p {
+.filter__name {
     padding-left: 3.2em;
     font-weight: bold;
     font-size: 0.94em;
@@ -132,8 +132,8 @@ span>i {
     padding: 0.7em 0.7em 0.7em 3em;
 }
 
-.filter__button>p:hover,
-.filter__button>p:active {
+.filter__name:hover,
+.filter__name:active {
     cursor: pointer;
     color: #0065fc;
     background: #deebff;

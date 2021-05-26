@@ -142,6 +142,14 @@ span>i {
     padding-left: 50px;
     padding-right: 22.5px;
     font-weight: bold;
+    /*Animation*/
+    transition: color 0.25s ease;
+    /*=========*/
+}
+
+.filter__name:active {
+    color: black;
+    cursor: wait;
 }
 
 .choiceBox {

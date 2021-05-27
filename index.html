@@ -8,28 +8,28 @@
     <title>Reservia</title>
     <link rel="stylesheet" href="design/reset.css" />
     <link rel="stylesheet" href="design/default.css" />
+    <link rel="stylesheet" href="design/desktop.css" />
     <script src="https://kit.fontawesome.com/1243262ebe.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- 1 - HEADER -->
-    <header>
-        <img src="pictures/logo/Reservia.svg" alt="Logo Reservia bleu" />
+    <header class="header">
+        <img src="pictures/logo/Reservia.svg" alt="Logo Reservia bleu" class="header__logo" />
         <a class="header__signIn" href="#">S'inscrire</a>
+
+        <!-- 2 - NAVBAR -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#accomodation" class="nav__link">Hébergement</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#activity" class="nav__link">Activités</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- 2 - NAV -->
-    <nav>
-        <ul class="nav__list">
-            <li class="nav__item">
-                <a href="#accomodation" class="nav__link">Hébergement</a>
-            </li>
-            <li class="nav__item">
-                <a href="#activity" class="nav__link">Activités</a>
-            </li>
-        </ul>
-    </nav>
-
     <!-- 3 - FILTER -->
     <section class="filter">
         <h1 class="filter__tilte">

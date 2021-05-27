@@ -1,0 +1,11 @@
+@media (min-width:992px) {
+    .header__logo {
+        order: 1;
+    }
+    .header__signIn {
+        order: 3;
+    }
+    .nav {
+        order: 2;
+    }
+}

@@ -8,7 +8,7 @@
 
 /* 1 - HEADER */
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,9 +25,9 @@ header {
 /* 2 - NAV */
 
 .nav__list {
-    list-style-type: none;
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
 }
 
 .nav__item {

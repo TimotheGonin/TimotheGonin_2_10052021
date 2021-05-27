@@ -24,30 +24,44 @@ header {
 
 /* 2 - NAV */
 
-ul {
+.nav__list {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
-li {
+.nav__item {
     padding: 0.5em;
     width: 50%;
     text-align: center;
     font-weight: 400;
     cursor: pointer;
-    border-bottom: 0.2em solid white;
+    /*Animation*/
+    transition: border-bottom 0.3s ease;
+    border-bottom: 0.2em solid #f2f2f2;
+    /*=========*/
 }
 
-
-/* li:nth-child(1) {
-    color: #0065FC;
-    border-bottom: .2em solid #0065FC;
-} */
-
-li:hover {
-    color: #0065fc;
+.nav__item:hover {
     border-bottom: 0.2em solid #0065fc;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    /*Animation*/
+    transition: color 0.3s ease;
+    color: black;
+    /*=========*/
+}
+
+.nav__link:hover {
+    color: #0065fc;
+}
+
+.nav__link:active {
+    color: #deebff;
+    cursor: wait;
 }
 
 

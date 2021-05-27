@@ -36,23 +36,32 @@ header {
     text-align: center;
     font-weight: 400;
     cursor: pointer;
-    border-bottom: 0.2em solid white;
+    /*Animation*/
+    transition: border-bottom 0.3s ease;
+    border-bottom: 0.2em solid #f2f2f2;
+    /*=========*/
 }
 
 .nav__item:hover {
     border-bottom: 0.2em solid #0065fc;
-    color: #0065fc;
 }
 
-a:hover {
-    color: #0065fc;
-}
-
-.nav__item a,
-.nav__item a:any-link {
+.nav__link {
     text-decoration: none;
-    font-weight: bold;
     color: black;
+    /*Animation*/
+    transition: color 0.3s ease;
+    color: black;
+    /*=========*/
+}
+
+.nav__link:hover {
+    color: #0065fc;
+}
+
+.nav__link:active {
+    color: #deebff;
+    cursor: wait;
 }
 
 

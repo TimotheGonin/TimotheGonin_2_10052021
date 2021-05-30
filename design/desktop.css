@@ -22,4 +22,42 @@
     .filter__button{
         margin-left: 2em;
     }
+
+    /*ACCOMODATION MOD*/
+    .popular, 
+    .accomodation{
+        border-radius: 1em;
+        margin: 0 1.3em;
+        padding: 1.5em;
+    }
+
+    .accomodation{
+        background:#f2f2f2;
+        width: 70%;
+    }
+    .accomodation__title{
+        margin: 0;
+        padding: 1em 0
+    }
+    .accomodation__card{
+        display:flex;
+        flex-wrap: wrap;
+        width: 97%;
+    }
+    .accomodation__card .card{
+        width:12em;
+        margin:0.5em;
+    }
+    .accomodation__card .card__img img{
+        width:100%;
+        height:8.5em;
+    }
+    .accomodation__card .card__info{
+        font-size: 0.75em;
+        padding:0.6em;
+    }
+    .accomodation__more{
+        font-size: 0.75em;
+    }
+
 }

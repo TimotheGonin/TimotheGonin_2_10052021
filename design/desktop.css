@@ -1,4 +1,6 @@
 @media (min-width:992px) {
+
+    /*HEADER MOD*/
     .header__logo {
         order: 1;
     }
@@ -7,5 +9,17 @@
     }
     .nav {
         order: 2;
+    }
+
+    /* FILTER MOD */
+    .filter h3 {
+        display: inline;
+    }
+    .choiceBox{
+        display: inline-flex;
+        flex-direction: row;
+    }
+    .filter__button{
+        margin-left: 2em;
     }
 }

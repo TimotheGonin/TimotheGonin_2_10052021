@@ -60,4 +60,19 @@
         font-size: 0.75em;
     }
 
+    /*FOOTER MOD*/
+
+    .footer{
+        display:flex;
+        font-size: 0.75em;
+        padding:2em;
+    }
+    .footer__content {
+        margin: 1em 25% 1em 0;
+    }
+    .footer__subtitle {
+        margin: 1em auto;
+        font-size: 0.8em;
+    }
+
 }

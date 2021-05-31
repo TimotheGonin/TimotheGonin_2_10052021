@@ -101,7 +101,7 @@
     width: 70%;
 }
 
-span>i {
+.search__submit--icon>i {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -112,6 +112,9 @@ span>i {
     padding: 1em;
     border-radius: 35%;
     cursor: pointer;
+}
+.search__submit--button{
+    display:none;
 }
 
 .filter__button {

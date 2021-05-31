@@ -10,6 +10,28 @@
     .nav {
         order: 2;
     }
+    /*SEARCHBAR MOD*/
+    .search{
+        width:35%;
+    }
+    .search__submit--icon{
+        display:none;
+    }
+    .search__submit--button{
+        display:inline-block;
+        position: absolute;
+        font-weight:bold;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #0065fc;
+        color: white;
+        border: none;
+        padding: 1em;
+        border-top-right-radius:1em;
+        border-bottom-right-radius:1em;
+        cursor: pointer;
+    }
 
     /* FILTER MOD */
     .filter h3 {

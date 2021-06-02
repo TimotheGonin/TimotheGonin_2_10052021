@@ -254,6 +254,7 @@
     width: 302px;
     height: 179px;
     border-radius: 1em;
+    box-shadow: 0 0 2em #f2f2f2;
     background: white;
     display: flex;
     flex-direction: column;
@@ -273,9 +274,13 @@
 }
 .card__body {
     display: flex;
+    width: 100%;
+    flex-direction: column;
     justify-content: flex-start;
-    flex-flow: row wrap;
     padding: 0 1em;
+}
+.card__subtitle > span {
+    font-weight: bold;
 }
 .card__footer {
     width: 90%;
@@ -319,13 +324,6 @@
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
 }
-/* .card img {
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    object-fit: cover;
-    width: 100%;
-    height: 103px;
-} */
 
 .card--emptyNotation img {
     border-top-left-radius: 1em;
@@ -358,6 +356,8 @@
 .card__notation,
 .card__notation--custom3,
 .card__notation--custom4,
+.card__actions,
+.card__actions--custom3,
 .card__actions--custom4 {
     color: #0065fc;
     font-size: 0.8em;
@@ -370,7 +370,10 @@
 
 .card__notation--custom3 > i:nth-child(4),
 .card__notation--custom3 > i:nth-child(5),
-.card__notation--custom4 > i:nth-child(5) {
+.card__notation--custom4 > i:nth-child(5),
+.card__actions--custom3 > i:nth-child(4),
+.card__actions--custom3 > i:nth-child(5),
+.card__actions--custom4 > i:nth-child(5) {
     color: #deebff;
 }
 

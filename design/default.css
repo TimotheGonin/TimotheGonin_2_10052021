@@ -98,21 +98,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 35%;
-    border-bottom-left-radius: 35%;
 }
 .search-bar__prepend--icon {
-    width: 46px;
+    width: 47px;
     height: 46px;
     background-color: #f2f2f2;
     font-size: 1em;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 35%;
 }
 
 .search-bar__input {
     border: none;
     outline: none;
-    padding-left: 0.5em;
+    padding-left: 0.6em;
     font-weight: bold;
+    font-size: 1em;
     width: 70%;
 }
 
@@ -125,9 +126,8 @@
     width: 46px;
     height: 46px;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     border: none;
-    padding: 1.2em;
     border-radius: 35%;
     cursor: pointer;
 }

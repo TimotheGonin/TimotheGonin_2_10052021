@@ -38,28 +38,34 @@
                 </ul>
             </nav>
         </header>
-        <!-- 3 - FILTER -->
-        <section class="filter">
-            <h1 class="filter__tilte">
+
+        <!-- 3 - SEARCH -->
+        <section class="search">
+            <h1 class="search__tilte">
                 Trouvez votre hébergement pour des vacances de rêve
             </h1>
-            <p class="filter__subtitle">
+            <p class="search__subtitle">
                 En plein centre ville ou en pleine nature
             </p>
 
-            <div class="search">
-                <i class="fas fa-map-marker-alt"></i>
+            <div class="search-bar">
+                <span class="search-bar__prepend--icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </span>
                 <input
-                    class="search__input"
+                    class="search-bar__input"
                     type="text"
                     value="Marseille, France"
                 />
-                <span class="search__submit--icon"
-                    ><i class="fas fa-search"></i
-                ></span>
-                <button class="search__submit--button">Rechercher</button>
+                <span class="search-bar__submit--icon">
+                    <i class="fas fa-search "></i>
+                </span>
+                <button class="search-bar__submit--button">Rechercher</button>
             </div>
+        </section>
 
+        <!-- 4 - FILTER -->
+        <section class="filter">
             <h3>Filtres</h3>
             <div class="choiceBox">
                 <button class="filter__button">
@@ -86,7 +92,7 @@
         </section>
 
         <main>
-            <!-- 4 POPULAR -->
+            <!-- 5 POPULAR -->
             <section class="popular">
                 <div class="popular__tilte">
                     <h3>Les plus populaires</h3>
@@ -170,7 +176,7 @@
                 </div>
             </section>
 
-            <!-- 5 ACCOMODATION -->
+            <!-- 6 ACCOMODATION -->
             <section class="accomodation">
                 <h3 class="accomodation__title" id="accomodation">
                     Hébergements à Marseille
@@ -331,7 +337,7 @@
                 <h3 class="accomodation__more">Afficher plus</h3>
             </section>
 
-            <!-- 6 ACTIVITY -->
+            <!-- 7 ACTIVITY -->
             <section class="activity">
                 <h3 class="activity__title" id="activity">
                     Activités à Marseille

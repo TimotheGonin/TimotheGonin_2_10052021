@@ -189,7 +189,7 @@
     cursor: wait;
 }
 
-.choiceBox {
+.filter__list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

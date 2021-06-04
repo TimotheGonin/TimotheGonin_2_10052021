@@ -1,6 +1,6 @@
 /*FONT*/
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
 * {
     font-family: "Raleway", sans-serif;
 }
@@ -18,6 +18,7 @@
     text-decoration: none;
     color: #0065fc;
     font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .header__logo {
@@ -38,22 +39,23 @@
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
 }
 
 .nav__item {
-    padding: 0.5em;
+    padding: 1.3rem;
     width: 50%;
-    text-align: center;
-    font-weight: 400;
     cursor: pointer;
     /*Animation*/
     transition: border-bottom 0.3s ease;
-    border-bottom: 0.2em solid #f2f2f2;
+    border-bottom: solid #f2f2f2;
     /*=========*/
 }
 
 .nav__item:hover {
-    border-bottom: 0.2em solid #0065fc;
+    border-bottom: 0.35rem solid #0065fc;
 }
 
 .nav__link {
@@ -66,6 +68,7 @@
 }
 
 .nav__link:hover {
+    font-weight: 600;
     color: #0065fc;
 }
 
@@ -74,22 +77,27 @@
     cursor: wait;
 }
 
+/* 3 - SEARCH */
+
 .search {
-    padding: 1.5em;
-    overflow: hidden;
+    padding: 2.4rem;
 }
 
 .search__tilte {
-    font-size: 1.4em;
-    margin-bottom: 0.5em;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
 }
-/* 3 - SEARCH-BAR*/
+.search__subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
 .search-bar {
-    margin: 1.9em 0;
+    margin: 2.5rem 0;
     display: flex;
     position: relative;
-    border: 0.1em solid #f2f2f2;
-    border-radius: 1em;
+    border: 0.1rem solid #f2f2f2;
+    border-radius: 1.3em;
 }
 
 .search-bar__prepend--icon,
@@ -103,17 +111,17 @@
     width: 45px;
     height: 46px;
     background-color: #f2f2f2;
-    font-size: 1em;
-    border-top-left-radius: 35%;
-    border-bottom-left-radius: 35%;
+    font-size: 1.6rem;
+    border-top-left-radius: 1.3rem;
+    border-bottom-left-radius: 1.3rem;
 }
 
 .search-bar__input {
     border: none;
     outline: none;
-    padding-left: 0.6em;
-    font-weight: bold;
-    font-size: 1em;
+    padding-left: 1rem;
+    font-weight: 800;
+    font-size: 1.4rem;
     width: 70%;
 }
 
@@ -126,9 +134,9 @@
     width: 46px;
     height: 46px;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.5rem;
     border: none;
-    border-radius: 35%;
+    border-radius: 1.3rem;
     cursor: pointer;
 }
 .search-bar__submit--button {
@@ -148,7 +156,7 @@
     justify-content: flex-start;
     width: 100%;
     padding: 20px 0;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 
 .filter__list {
@@ -190,13 +198,13 @@
     border-radius: 50%;
     color: #0065fc;
     background: #deebff;
-    font-size: 1.35em;
+    /* font-size: 1.35em; */
 }
 
 .filter__name {
     padding: 0 16px;
     font-weight: bold;
-    font-size: 1.05em;
+    /* font-size: 1.05em; */
     /*Animation*/
     transition: color 0.25s ease;
     /*=========*/
@@ -223,7 +231,7 @@
     color: #0065fc;
     border: 1px solid #deebff;
     border-radius: 50%;
-    padding: 1em;
+    /* padding: 1em; */
     height: 22px;
     width: 22px;
 }
@@ -248,7 +256,7 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 27px;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 .popular__tilte > i {
     font-size: 1.4em;

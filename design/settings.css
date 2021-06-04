@@ -1,8 +1,7 @@
+/*RESET IMPORT*/
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
-*,
-::before,
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+/*FONT SIZE*/
+html {
+    font-size: 62.5%;
 }

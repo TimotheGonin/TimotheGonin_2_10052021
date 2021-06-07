@@ -23,11 +23,11 @@
 
 .header__logo {
     order: 1;
-    margin: 18px;
+    padding: 18px;
 }
 .header__signIn {
     order: 2;
-    margin: 18px;
+    padding: 18px;
 }
 .nav {
     order: 3;

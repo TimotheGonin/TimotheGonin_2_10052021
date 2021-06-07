@@ -23,11 +23,11 @@
 
 .header__logo {
     order: 1;
-    margin: 18px;
+    padding: 18px;
 }
 .header__signIn {
     order: 2;
-    margin: 18px;
+    padding: 18px;
 }
 .nav {
     order: 3;
@@ -469,7 +469,7 @@
 
 /* 7 FOOTER */
 
-footer {
+.footer {
     background-color: #f2f2f2;
     padding: 2.4rem;
     display: flex;

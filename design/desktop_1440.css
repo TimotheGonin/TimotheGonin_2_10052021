@@ -53,6 +53,27 @@
         cursor: pointer;
     }
 
+    /*FILTER LIST*/
+    .filter {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+    .filter__title {
+        order: 1;
+        width: 5%;
+        align-items: center;
+    }
+    .filter__list {
+        order: 2;
+        width: 50%;
+        height: auto;
+    }
+    .info {
+        order: 3;
+        width: 100%;
+        align-items: center;
+    }
+
     /*MAIN LAYOUT*/
     main {
         display: flex;

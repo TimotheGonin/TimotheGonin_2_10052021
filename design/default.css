@@ -469,7 +469,7 @@
 
 /* 7 FOOTER */
 
-footer {
+.footer {
     background-color: #f2f2f2;
     padding: 2.4rem;
     display: flex;

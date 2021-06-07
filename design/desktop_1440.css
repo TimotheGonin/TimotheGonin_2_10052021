@@ -81,4 +81,17 @@
         width: 100%;
         border-radius: 25px;
     }
+    .activity__card {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    /*FOOTER MOD*/
+    .footer {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .footer__content {
+        margin-right: 20%;
+    }
 }

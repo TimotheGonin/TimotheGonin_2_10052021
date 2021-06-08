@@ -468,10 +468,15 @@
 }
 
 /* 7 FOOTER */
-
-.footer {
+footer {
     background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+.footer {
     padding: 2.4rem;
+    width: 100%;
+    max-width: 1280px; /*temporary*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;

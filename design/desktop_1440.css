@@ -107,50 +107,63 @@
         border-radius: 25px;
     }
     .activity__card {
+        width: 100%;
+        max-width: 139.2rem;
         display: flex;
         flex-flow: row wrap;
-        /* justify-content: space-between;
-        align-items: flex-start; */
+        justify-content: space-around;
+    }
+    .activity__card--group2-3,
+    .activity__card--group5-6 {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
     }
     /*ACTIVITY CARD SIZE*/
     /*1 & 4*/
-    .activity__card .card--emptyNotation:nth-child(1),
-    .activity__card .card--emptyNotation:nth-child(4) {
+    .activity__card > .card--emptyNotation:nth-child(1),
+    .activity__card .card--emptyNotation:nth-child(3) {
         height: 44.5rem;
     }
-    .activity__card .card--emptyNotation:nth-child(1) .card__figure--tall,
-    .activity__card .card--emptyNotation:nth-child(4) .card__figure--tall {
+    .activity__card > .card--emptyNotation:nth-child(1) .card__figure--tall,
+    .activity__card .card--emptyNotation:nth-child(3) .card__figure--tall {
         height: 39rem;
     }
-    /*2*/
-    .activity__card .card--emptyNotation:nth-child(2) {
+    /*2 - GROUPE 2-3*/
+    .activity__card--group2-3 .card--emptyNotation:nth-child(1) {
         height: 23.6rem;
     }
-    .activity__card .card--emptyNotation:nth-child(2) .card__figure--tall {
+    .activity__card--group2-3
+        .card--emptyNotation:nth-child(1)
+        .card__figure--tall {
         height: 18.1rem;
     }
-    /*3*/
-    .activity__card .card--emptyNotation:nth-child(3) {
+    /*3 - GROUPE 2-3*/
+    .activity__card--group2-3 .card--emptyNotation:nth-child(2) {
         height: 16.4rem;
-        /* align-self: flex-end; */
     }
-    .activity__card .card--emptyNotation:nth-child(3) .card__figure--tall {
+    .activity__card--group2-3
+        .card--emptyNotation:nth-child(2)
+        .card__figure--tall {
         height: 11rem;
     }
 
-    /*5*/
-    .activity__card .card--emptyNotation:nth-child(5) {
+    /*5 - GROUPE 5-6*/
+    .activity__card--group5-6 .card--emptyNotation:nth-child(1) {
         height: 19.5rem;
     }
-    .activity__card .card--emptyNotation:nth-child(5) .card__figure--tall {
+    .activity__card--group5-6
+        .card--emptyNotation:nth-child(1)
+        .card__figure--tall {
         height: 14.1rem;
     }
-    /*6*/
-    .activity__card .card--emptyNotation:nth-child(6) {
+    /*6 - GROUPE 5-6*/
+    .activity__card--group5-6 .card--emptyNotation:nth-child(2) {
         height: 20.9rem;
-        /* align-self: flex-end; */
     }
-    .activity__card .card--emptyNotation:nth-child(6) .card__figure--tall {
+    .activity__card--group5-6
+        .card--emptyNotation:nth-child(2)
+        .card__figure--tall {
         height: 15.3rem;
     }
 

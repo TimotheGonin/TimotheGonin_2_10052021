@@ -84,6 +84,7 @@
     .accomodation {
         order: 1;
         width: 67.5%;
+        max-width: 88rem;
         background: #f2f2f2;
         border-radius: 25px;
     }
@@ -106,6 +107,7 @@
     .popular {
         order: 2;
         width: 27.5%;
+        max-width: 42rem;
         border-radius: 25px;
     }
     /*POPULAR CARD MOD*/

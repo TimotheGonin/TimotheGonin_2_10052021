@@ -1,5 +1,17 @@
 @media (min-width: 1440px) {
+    body {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
     /*HEADER*/
+    .header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 134rem;
+    }
     .header__logo {
         order: 1;
         width: 70%;
@@ -32,7 +44,7 @@
 
     /*SEARCHBAR MOD*/
     .search-bar {
-        width: 30%;
+        max-width: 42rem;
     }
     .search-bar__submit--icon {
         display: none;
@@ -65,8 +77,9 @@
     }
     .filter__list {
         order: 2;
-        width: 60%;
+        /* width: 60%; */
         height: auto;
+        max-width: 84.4rem;
     }
     .info {
         order: 3;
@@ -80,10 +93,17 @@
         flex-flow: row wrap;
         justify-content: center;
     }
+    .search-filter {
+        /* display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start; */
+        width: 100%;
+        max-width: 134rem;
+    }
     .popular-accomodation-group {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
         max-width: 134rem;
     }
@@ -94,6 +114,7 @@
         max-width: 88rem;
         background: #f2f2f2;
         border-radius: 25px;
+        margin-right: 4rem;
     }
     .accomodation__card {
         width: 100%;
@@ -130,11 +151,12 @@
     .activity {
         order: 3;
         width: 100%;
+        max-width: 139.2rem;
         border-radius: 25px;
     }
     .activity__card {
         width: 100%;
-        max-width: 139.2rem;
+        /* max-width: 139.2rem; */
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -194,9 +216,14 @@
     }
 
     /*FOOTER MOD*/
+    footer {
+        width: 100%;
+    }
     .footer {
         flex-direction: row;
         justify-content: flex-start;
+        width: 100%;
+        max-width: 134rem;
     }
     .footer__content {
         margin-right: 20%;

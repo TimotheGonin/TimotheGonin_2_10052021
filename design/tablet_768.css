@@ -1,0 +1,79 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*HEADER*/
+    .header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header__logo {
+        order: 1;
+    }
+    .header__signIn {
+        text-align: center;
+        order: 3;
+    }
+    /*HEADER__NAV*/
+    .nav {
+        order: 2;
+        width: 40%;
+    }
+
+    .nav__item {
+        padding: 3rem;
+        /*Animation*/
+        transition: border-top 0.3s ease;
+        border-top: 0.4rem solid #f2f2f2;
+        border-bottom: 0;
+        /*=========*/
+    }
+
+    .nav__item:hover {
+        border-bottom: 0;
+        border-top: 0.4rem solid #0065fc;
+    }
+    /*SEARCHBAR MOD*/
+    .search-bar {
+        max-width: 42rem;
+    }
+    .search-bar__submit--icon {
+        display: none;
+    }
+    .search-bar__submit--button {
+        display: inline-block;
+        position: absolute;
+        font-weight: bold;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #0065fc;
+        color: white;
+        border: none;
+        padding: 1em;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        cursor: pointer;
+    }
+
+    /*CARDS DECK MOD*/
+    .popular,
+    .accomodation__card,
+    .activity__card {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    /*ACTIVITY CARD 1 AND 3*/
+    .activity__card > .card--emptyNotation:nth-child(1) .card__figure--tall,
+    .activity__card .card--emptyNotation:nth-child(3) .card__figure--tall {
+        height: 30.1rem;
+    }
+
+    /*FOOTER MOD*/
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+}

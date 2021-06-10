@@ -1,6 +1,15 @@
 @media (min-width: 1440px) {
+    body {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
     /*HEADER*/
     .header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
         max-width: 134rem;
     }
     .header__logo {
@@ -83,6 +92,13 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+    }
+    .search-filter {
+        /* display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start; */
+        width: 100%;
+        max-width: 134rem;
     }
     .popular-accomodation-group {
         display: flex;
@@ -200,6 +216,9 @@
     }
 
     /*FOOTER MOD*/
+    footer {
+        width: 100%;
+    }
     .footer {
         flex-direction: row;
         justify-content: flex-start;

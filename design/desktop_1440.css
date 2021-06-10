@@ -78,7 +78,14 @@
     main {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: center;
+    }
+    .popular-accomodation-group {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 134rem;
     }
     /*ACCOMODATION MOD*/
     .accomodation {
@@ -106,7 +113,6 @@
     /*POPULAR MOD*/
     .popular {
         order: 2;
-        width: 27.5%;
         max-width: 42rem;
         border-radius: 25px;
     }

@@ -7,4 +7,13 @@
     .nav {
         width: 25%;
     }
+    /*ACCOMODATION CARD MOD*/
+    .card {
+        width: 24.6rem;
+        height: 19.9rem;
+    }
+    .card__figure {
+        width: 23.6rem;
+        height: 11.4rem;
+    }
 }

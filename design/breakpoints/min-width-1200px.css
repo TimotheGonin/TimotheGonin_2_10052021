@@ -76,4 +76,17 @@
         flex-flow: row wrap;
         justify-content: space-around;
     }
+    /*FOOTER MOD*/
+    footer {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        max-width: 134rem;
+    }
+    .footer__content {
+        margin-right: 20%;
+    }
 }

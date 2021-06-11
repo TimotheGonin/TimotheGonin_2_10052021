@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+    /*HEADER*/
+    .header__logo {
+        width: 50%;
+    }
+    /*HEADER__NAV*/
+    .nav {
+        width: 35%;
+    }
+}

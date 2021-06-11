@@ -33,26 +33,17 @@
         border-top: 0.4rem solid #0065fc;
     }
     /*SEARCHBAR MOD*/
-    .search-bar {
+    /* .search-bar {
         max-width: 42rem;
+    } */
+    .search-bar__input {
+        width: 60%;
     }
     .search-bar__submit--icon {
         display: none;
     }
     .search-bar__submit--button {
         display: inline-block;
-        position: absolute;
-        font-weight: bold;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        background-color: #0065fc;
-        color: white;
-        border: none;
-        padding: 1em;
-        border-top-right-radius: 1em;
-        border-bottom-right-radius: 1em;
-        cursor: pointer;
     }
 
     /*CARDS DECK MOD*/

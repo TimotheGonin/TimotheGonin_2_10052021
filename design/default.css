@@ -94,9 +94,11 @@
     font-weight: 500;
 }
 .search-bar {
-    margin: 2.5rem 0;
     display: flex;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 42rem;
+    margin: 2.5rem 0;
     border: 0.1rem solid #f2f2f2;
     border-radius: 1.3em;
 }
@@ -120,28 +122,42 @@
 .search-bar__input {
     border: none;
     outline: none;
-    padding-left: 1rem;
     font-weight: 800;
     font-size: 1.4rem;
     width: 70%;
 }
 
 .search-bar__submit--icon {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
     background-color: #0065fc;
     width: 46px;
     height: 46px;
     color: white;
     font-size: 1.5rem;
-    border: none;
     border-radius: 1.3rem;
     cursor: pointer;
 }
 .search-bar__submit--button {
     display: none;
+    height: 46px;
+    font-weight: bold;
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    cursor: pointer;
+}
+@media (min-width: 500px) {
+    .search-bar__input {
+        width: 57%;
+    }
+    .search-bar__submit--icon {
+        display: none;
+    }
+    .search-bar__submit--button {
+        display: inline-block;
+    }
 }
 
 /* 4 - FILTER */

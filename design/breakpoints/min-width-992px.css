@@ -29,4 +29,10 @@
         width: 100%;
         align-items: center;
     }
+    .activity__card--group5-6 {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        width: 67%;
+    }
 }

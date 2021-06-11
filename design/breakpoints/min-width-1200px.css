@@ -61,4 +61,19 @@
         flex-flow: row wrap;
         justify-content: space-around;
     }
+
+    /*ACTIVITY MOD*/
+    .activity {
+        order: 3;
+        width: 100%;
+        max-width: 139.2rem;
+        border-radius: 25px;
+    }
+    .activity__card {
+        width: 100%;
+        max-width: 139.2rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
 }

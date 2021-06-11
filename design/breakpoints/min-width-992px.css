@@ -7,4 +7,26 @@
     .nav {
         width: 35%;
     }
+    /*FILTER LIST*/
+    .search-filter {
+        width: 100%;
+        max-width: 134rem;
+    }
+    .filter {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+    .filter__title {
+        order: 1;
+        width: 10%;
+        align-items: center;
+    }
+    .filter__list {
+        order: 2;
+    }
+    .info {
+        order: 3;
+        width: 100%;
+        align-items: center;
+    }
 }

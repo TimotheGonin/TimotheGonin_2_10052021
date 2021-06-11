@@ -22,6 +22,7 @@
     align-items: center;
     height: 159px;
     width: 100%;
+    max-width: 84.4rem;
 }
 
 .filter__button {

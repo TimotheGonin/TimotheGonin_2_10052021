@@ -5,40 +5,11 @@
         align-items: center;
     }
 
-    /*FILTER LIST*/
-    .filter {
-        flex-flow: row wrap;
-        justify-content: flex-start;
-    }
-    .filter__title {
-        order: 1;
-        width: 5%;
-        align-items: center;
-    }
-    .filter__list {
-        order: 2;
-        /* width: 60%; */
-        height: auto;
-        max-width: 84.4rem;
-    }
-    .info {
-        order: 3;
-        width: 100%;
-        align-items: center;
-    }
-
     /*MAIN LAYOUT*/
     main {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-    }
-    .search-filter {
-        /* display: flex;
-        flex-flow: column nowrap;
-        align-items: flex-start; */
-        width: 100%;
-        max-width: 134rem;
     }
     .popular-accomodation-group {
         display: flex;

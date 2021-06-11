@@ -1,0 +1,28 @@
+.popular {
+    padding: 2.4rem;
+    background-color: #f2f2f2;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2.2rem;
+}
+.popular__title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.popular__icon {
+    font-size: 2.2rem;
+}
+
+.popular__icon:hover,
+.popular__icon:active {
+    cursor: pointer;
+    color: #0065fc;
+}

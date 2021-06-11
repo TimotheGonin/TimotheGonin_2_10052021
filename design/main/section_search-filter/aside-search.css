@@ -67,14 +67,3 @@
     border-bottom-right-radius: 1em;
     cursor: pointer;
 }
-@media (min-width: 500px) {
-    .search-bar__input {
-        width: 57%;
-    }
-    .search-bar__submit--icon {
-        display: none;
-    }
-    .search-bar__submit--button {
-        display: inline-block;
-    }
-}

@@ -34,6 +34,8 @@
         border-top: 0.4rem solid #0065fc;
     }
 
+    /*SEARCH*/
+
     .search-bar__input {
         width: 60%;
     }

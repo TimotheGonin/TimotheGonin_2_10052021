@@ -1,0 +1,92 @@
+@media (min-width: 1200px) {
+    /*PAGE*/
+    body {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    /*HEADER*/
+    .header {
+        max-width: 134rem;
+    }
+    .header__logo {
+        width: 60%;
+    }
+    /*HEADER__NAV*/
+    .nav {
+        width: 30%;
+    }
+
+    /*MAIN LAYOUT*/
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .popular-accomodation-group {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 134rem;
+    }
+    /*POPULAR CARD*/
+    .popular {
+        order: 2;
+        max-width: 42rem;
+        border-radius: 25px;
+    }
+    .card--row {
+        width: 34.3rem;
+        height: 14.4rem;
+        margin: 2rem 0;
+    }
+    .card__figure--small {
+        width: 12.7rem;
+        height: 13.4rem;
+    }
+
+    /*ACCOMODATION MOD*/
+    .accomodation {
+        order: 1;
+        width: 67.5%;
+        max-width: 88rem;
+        background: #f2f2f2;
+        border-radius: 25px;
+        margin-right: 4rem;
+    }
+    .accomodation__card {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    /*ACTIVITY MOD*/
+    .activity {
+        order: 3;
+        width: 100%;
+        max-width: 139.2rem;
+        border-radius: 25px;
+    }
+    .activity__card {
+        width: 100%;
+        max-width: 139.2rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    /*FOOTER MOD*/
+    footer {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        max-width: 134rem;
+    }
+    .footer__content {
+        margin-right: 20%;
+    }
+}

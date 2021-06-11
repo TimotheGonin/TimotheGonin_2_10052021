@@ -5,37 +5,6 @@
     font-family: "Raleway", sans-serif;
 }
 
-/* 5 ACCOMODATION */
-.accomodation__title,
-.accomodation__more {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    margin-bottom: 27px;
-    font-weight: 800;
-}
-.accomodation__title {
-    font-size: 1.9rem;
-}
-.accomodation {
-    padding: 2.4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.accomodation__more {
-    font-size: 1.55rem;
-    margin-top: 2rem;
-}
-.accomodation__more:hover {
-    cursor: pointer;
-    color: #0065fc;
-}
-
-.accomodation__more:active {
-    cursor: wait;
-}
-
 /* 6 ACTIVITY */
 
 .activity {

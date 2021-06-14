@@ -1,5 +1,10 @@
-.header {
+/*GLOBAL RULES*/
+.header,
+.nav__list,
+.nav__item {
     display: flex;
+}
+.header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -14,11 +19,13 @@
 
 .header__logo {
     order: 1;
-    padding: 18px;
 }
 .header__signIn {
     order: 2;
-    padding: 18px;
+}
+.header__logo,
+.header__signIn {
+    padding: 1.8rem;
 }
 .nav {
     order: 3;
@@ -27,15 +34,14 @@
 /* NAV */
 
 .nav__list {
-    display: flex;
     justify-content: space-around;
     list-style-type: none;
     font-size: 1.5rem;
     font-weight: 500;
-    text-align: center;
 }
 
 .nav__item {
+    justify-content: center;
     padding: 1.3rem;
     width: 50%;
     cursor: pointer;
@@ -51,7 +57,7 @@
 
 .nav__link {
     text-decoration: none;
-    color: black;
+
     /*Animation*/
     transition: color 0.3s ease;
     color: black;

@@ -1,4 +1,18 @@
 @media (min-width: 1400px) {
+    /*COMMON RULES*/
+
+    .activity__card,
+    .activity__card--group2-3,
+    .activity__card--group5-6 {
+        display: flex;
+    }
+
+    .activity,
+    .activity__card {
+        width: 100%;
+    }
+    /*====*/
+
     /*HEADER*/
     .header__logo {
         width: 70%;
@@ -18,13 +32,10 @@
     }
     /*ACTIVITY MOD*/
     .activity {
-        width: 100%;
         max-width: 139.2rem;
         border-radius: 25px;
     }
     .activity__card {
-        width: 100%;
-        display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
     }
@@ -33,7 +44,6 @@
     }
     .activity__card--group2-3,
     .activity__card--group5-6 {
-        display: flex;
         flex-flow: column;
         justify-content: space-between;
     }

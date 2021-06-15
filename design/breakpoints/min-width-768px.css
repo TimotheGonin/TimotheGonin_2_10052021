@@ -1,14 +1,31 @@
 @media (min-width: 768px) {
+    /*COMMON RULES*/
+
+    .header,
+    .popular,
+    .accomodation__card,
+    .activity__card {
+        display: flex;
+    }
+
+    .header__logo,
+    .nav {
+        width: 40%;
+    }
+    .header,
+    .footer {
+        width: 100%;
+    }
+
+    /**/
+
     /*HEADER*/
     .header {
-        display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        width: 100%;
     }
     .header__logo {
         order: 1;
-        width: 40%;
     }
     .header__signIn {
         text-align: center;
@@ -17,10 +34,9 @@
     /*HEADER__NAV*/
     .nav {
         order: 2;
-        width: 40%;
     }
 
-    .nav__item {
+    .nav__link {
         padding: 3rem;
         /*Animation*/
         transition: border-top 0.3s ease;
@@ -29,7 +45,7 @@
         /*=========*/
     }
 
-    .nav__item:hover {
+    .nav__link:hover {
         border-bottom: 0;
         border-top: 0.4rem solid #0065fc;
     }
@@ -47,15 +63,14 @@
     }
 
     /*FILTER LIST*/
-    .filter__list {
-        height: auto;
+    .filter__button {
+        margin-bottom: 0;
     }
 
     /*CARDS DECK MOD*/
     .popular,
     .accomodation__card,
     .activity__card {
-        display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
     }
@@ -70,6 +85,5 @@
     .footer {
         flex-direction: row;
         justify-content: space-around;
-        width: 100%;
     }
 }

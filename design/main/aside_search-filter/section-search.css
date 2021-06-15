@@ -1,6 +1,22 @@
-.search {
-    padding: 2.4rem;
+/*COMMON RULES*/
+.search-bar__submit--button,
+.search-bar__submit--icon {
+    background-color: #0065fc;
 }
+
+.search-bar__submit--icon,
+.search-bar__submit--button {
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar,
+.search-bar__prepend--icon,
+.search-bar__submit--icon,
+.search-bar__submit--button {
+    display: flex;
+}
+/*====*/
 
 .search__tilte {
     font-size: 2rem;
@@ -13,7 +29,6 @@
     font-weight: 500;
 }
 .search-bar {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 42rem;
@@ -25,7 +40,6 @@
 .search-bar__prepend--icon,
 .search-bar__submit--icon,
 .search-bar__submit--button {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -47,23 +61,17 @@
 }
 
 .search-bar__submit--icon {
-    background-color: #0065fc;
     width: 46px;
     height: 46px;
-    color: white;
     font-size: 1.5rem;
     border-radius: 1.3rem;
-    cursor: pointer;
 }
 .search-bar__submit--button {
     display: none;
     height: 46px;
     font-weight: bold;
-    background-color: #0065fc;
-    color: white;
     border: none;
     padding: 1em;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
-    cursor: pointer;
 }

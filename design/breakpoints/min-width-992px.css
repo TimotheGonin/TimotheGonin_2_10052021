@@ -1,4 +1,13 @@
 @media (min-width: 992px) {
+    /*COMMON RULES*/
+
+    .filter__title,
+    .info {
+        align-items: center;
+    }
+
+    /*====*/
+
     /*HEADER*/
     .header__logo {
         width: 50%;
@@ -19,7 +28,6 @@
     .filter__title {
         order: 1;
         width: 10%;
-        align-items: center;
     }
     .filter__list {
         order: 2;
@@ -27,7 +35,6 @@
     .info {
         order: 3;
         width: 100%;
-        align-items: center;
     }
     .activity__card--group5-6 {
         display: flex;

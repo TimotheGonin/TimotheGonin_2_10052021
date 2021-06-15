@@ -1,11 +1,16 @@
-.activity {
+/*COMMON RULES*/
+.activity,
+.activity__title {
     display: flex;
+}
+/**/
+
+.activity {
     flex-direction: column;
     align-items: center;
 }
 
 .activity__title {
-    display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 27px;

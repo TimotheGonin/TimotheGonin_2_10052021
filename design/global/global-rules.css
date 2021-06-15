@@ -1,6 +1,10 @@
 .body {
     max-width: 1340px;
     background: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 auto;
 }
 .search,
 .filter,

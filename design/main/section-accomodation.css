@@ -1,16 +1,23 @@
+/*COMMON RULES*/
+.accomodation__title,
+.accomodation__more,
+.accomodation {
+    display: flex;
+}
+
 .accomodation__title,
 .accomodation__more {
-    display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 27px;
     font-weight: 800;
 }
+/*====*/
+
 .accomodation__title {
     font-size: 1.9rem;
 }
 .accomodation {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }

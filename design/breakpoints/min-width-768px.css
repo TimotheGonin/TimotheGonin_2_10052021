@@ -47,8 +47,8 @@
     }
 
     /*FILTER LIST*/
-    .filter__list {
-        height: auto;
+    .filter__button {
+        margin-bottom: 0;
     }
 
     /*CARDS DECK MOD*/

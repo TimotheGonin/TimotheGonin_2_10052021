@@ -24,6 +24,7 @@
 .accomodation__more {
     font-size: 1.55rem;
     margin-top: 2rem;
+    transition: all 0.3s ease;
 }
 .accomodation__more:hover {
     cursor: pointer;

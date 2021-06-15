@@ -1,6 +1,9 @@
-.search {
-    padding: 2.4rem;
+/*COMMON RULES*/
+.search-bar__submit--button,
+.search-bar__submit--icon {
+    background-color: #0065fc;
 }
+/*====*/
 
 .search__tilte {
     font-size: 2rem;
@@ -47,7 +50,6 @@
 }
 
 .search-bar__submit--icon {
-    background-color: #0065fc;
     width: 46px;
     height: 46px;
     color: white;
@@ -59,7 +61,6 @@
     display: none;
     height: 46px;
     font-weight: bold;
-    background-color: #0065fc;
     color: white;
     border: none;
     padding: 1em;

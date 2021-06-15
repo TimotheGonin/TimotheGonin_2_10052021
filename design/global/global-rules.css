@@ -2,3 +2,11 @@
     max-width: 1340px;
     background: white;
 }
+.search,
+.filter,
+.popular,
+.accomodation,
+.activity,
+.footer {
+    padding: 2.4rem;
+}

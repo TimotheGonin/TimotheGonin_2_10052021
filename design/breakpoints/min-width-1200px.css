@@ -1,17 +1,37 @@
 @media (min-width: 1200px) {
-    /*PAGE*/
-    body {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-    }
-    /*HEADER*/
-    .header {
+    /* COMMON RULES*/
+
+    .header,
+    .popular-accomodation-group,
+    .footer {
         max-width: 134rem;
     }
+
+    .activity,
+    .activity__card {
+        max-width: 139.2rem;
+    }
+
+    .activity__card,
+    .accomodation__card {
+        display: flex;
+    }
+
+    .activity,
+    .activity__card,
+    .accomodation__card,
+    footer,
+    .footer {
+        width: 100%;
+    }
+
+    /*====*/
+
+    /*HEADER*/
     .header__logo {
         width: 60%;
     }
+
     /*HEADER__NAV*/
     .nav {
         width: 30%;
@@ -28,7 +48,6 @@
         flex-flow: row nowrap;
         justify-content: center;
         width: 100%;
-        max-width: 134rem;
     }
     /*POPULAR CARD*/
     .popular {
@@ -56,35 +75,24 @@
         margin-right: 4rem;
     }
     .accomodation__card {
-        width: 100%;
-        display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
     }
 
     /*ACTIVITY MOD*/
+
     .activity {
         order: 3;
-        width: 100%;
-        max-width: 139.2rem;
         border-radius: 25px;
     }
     .activity__card {
-        width: 100%;
-        max-width: 139.2rem;
-        display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
     }
     /*FOOTER MOD*/
-    footer {
-        width: 100%;
-    }
     .footer {
         flex-direction: row;
         justify-content: flex-start;
-        width: 100%;
-        max-width: 134rem;
     }
     .footer__content {
         margin-right: 20%;

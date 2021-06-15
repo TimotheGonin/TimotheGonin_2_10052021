@@ -1,39 +1,123 @@
-/*CARD RULES*/
+/*COMMON RULES*/
+.card,
+.card--emptyNotation,
+.card--row,
+.card__body,
+.card__body--small {
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.card,
+.card--emptyNotation,
+.card--row {
+    background: white;
+    border-radius: 15px;
+}
+
+.card,
+.card--emptyNotation {
+    box-shadow: 0 0 2em #f2f2f2;
+    margin: 1.2rem 0;
+}
+.card,
+.card--row {
+    align-items: center;
+}
+
+.card,
+.card__body {
+    justify-content: space-around;
+}
+
+.card__title,
+.card__subtitle > span {
+    font-weight: bold;
+}
+
+.card__body--small .card__actions,
+.card__body--small .card__actions--custom4 {
+    margin-top: 2.4rem;
+}
+
+.card,
+.card--emptyNotation,
+.card__body,
+.card__body--small {
+    flex-direction: column;
+}
+
+.card__body,
+.card__body--small {
+    padding: 1em;
+}
+
+.card__image,
+.card__image--small {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card :hover,
+.card :active,
+.card--row:hover,
+.card--row :active,
+.card--emptyNotation:hover,
+.card--emptyNotation:active {
+    color: #0065fc;
+}
+
+.card:hover,
+.card--row:hover,
+.card--emptyNotation:hover {
+    cursor: pointer;
+}
+
+.card:active,
+.card--row :active,
+.card--emptyNotation:active {
+    cursor: wait;
+}
+
+.card__notation,
+.card__notation--custom3,
+.card__notation--custom4,
+.card__actions,
+.card__actions--custom3,
+.card__actions--custom4 {
+    color: #0065fc;
+    font-size: 1.1rem;
+    letter-spacing: -0.09rem;
+}
+
+.card__notation--custom3 > i:nth-child(4),
+.card__notation--custom3 > i:nth-child(5),
+.card__notation--custom4 > i:nth-child(5),
+.card__actions--custom3 > i:nth-child(4),
+.card__actions--custom3 > i:nth-child(5),
+.card__actions--custom4 > i:nth-child(5) {
+    color: #deebff;
+}
+
+/*====*/
 
 .card {
     width: 302px;
     height: 179px;
-    border-radius: 15px;
-    margin: 1.2rem 0;
     padding: 3px;
-    box-shadow: 0 0 2em #f2f2f2;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
 .card--emptyNotation {
     width: 301px;
     height: 171px;
-    border-radius: 15px;
-    box-shadow: 0 0 2em #f2f2f2;
-    margin: 1.2rem 0;
-    background: white;
-    display: flex;
-    flex-direction: column;
 }
 
 .card--row {
     width: 301px;
     height: 130px;
     padding: 0.5rem;
-    border-radius: 15px;
-    background-color: white;
     box-shadow: 0 0 4rem silver;
-    display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     margin: 0.8rem 0;
 }
@@ -50,38 +134,26 @@
     width: 301px;
     height: 122px;
 }
+
 .card__image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 .card__image--small {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 .card__body {
-    display: flex;
     width: 100%;
     height: 68px;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 1em;
 }
 .card__body--small {
-    display: flex;
     width: 177px;
     height: 100%;
-    flex-direction: column;
-    padding: 1em;
 }
+
 .card__title {
     font-size: 1.4rem;
-    font-weight: bold;
 }
 .card__subtitle {
     font-size: 1.2rem;
@@ -89,53 +161,4 @@
 }
 .card__body--small .card__subtitle {
     padding: 1em 0;
-}
-.card__subtitle > span {
-    font-weight: bold;
-}
-.card__body--small .card__actions,
-.card__body--small .card__actions--custom4 {
-    margin-top: 2.4rem;
-}
-
-.card :hover,
-.card :active,
-.card--row:hover,
-.card--row :active {
-    color: #0065fc;
-}
-
-.card:hover,
-.card--row:hover {
-    cursor: pointer;
-}
-
-.card:active,
-.card--row :active {
-    cursor: wait;
-}
-
-.card__notation,
-.card__notation--custom3,
-.card__notation--custom4,
-.card__actions,
-.card__actions--custom3,
-.card__actions--custom4 {
-    color: #0065fc;
-    font-size: 1.1rem;
-    letter-spacing: -0.09rem;
-}
-
-/* .card--row .card__notation,
-.card--row .card__notation--custom3,
-.card--row .card__notation--custom4 {
-} */
-
-.card__notation--custom3 > i:nth-child(4),
-.card__notation--custom3 > i:nth-child(5),
-.card__notation--custom4 > i:nth-child(5),
-.card__actions--custom3 > i:nth-child(4),
-.card__actions--custom3 > i:nth-child(5),
-.card__actions--custom4 > i:nth-child(5) {
-    color: #deebff;
 }
